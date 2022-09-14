@@ -1,0 +1,31 @@
+public class Main {
+  public static void main(String[] args) {
+    
+    int i,j;
+    int row=5;
+    int n=1;
+    
+    for(i=1;i<=row;i++)
+    {
+    n=1;
+    for(j=row-i+1;j>0;j--)
+    {
+     System.out.print((char)(n+64));
+     System.out.print(" ");
+     n++;
+    }
+    System.out.println();
+    }
+    
+    
+  }
+}
+
+
+
+OUTPUT:
+A B C D E 
+A B C D 
+A B C 
+A B 
+A 
